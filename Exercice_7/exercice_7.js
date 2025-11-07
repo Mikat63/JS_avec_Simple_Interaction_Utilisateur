@@ -5,7 +5,7 @@ const submitBtn = document.querySelector("#submit");
 submitBtn.addEventListener("click", function (event) {
   event.preventDefault();
   if (shoeSize.value === "" || yearOfBirth.value === "") {
-    alert("Les champs ne peuvent être remplis");
+    alert("Les champs ne doivent être vides");
     return;
   }
 
