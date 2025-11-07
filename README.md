@@ -31,7 +31,6 @@ Les multiplier et afficher le résultat dans une boîte de dialogue.
 Dans un fichier séparé, créer une fonction permettant d’afficher le reste de la division de deux nombres. L’appeler depuis le fichier html.
 
 ## Exercice 7 :
-
 Demander à l’utilisateur sa pointure et son année de naissance. Créer une fonction qui fait les calculs suivants :
 
 1. Multiplier la pointure par 2

@@ -2,8 +2,8 @@ const firstNumber = document.querySelector("#firstNumber");
 const secondNumber = document.querySelector("#secondNumber");
 const submitBtn = document.querySelector("#submit");
 
-submitBtn.addEventListener("click", function () {
-  console.log("hello");
+submitBtn.addEventListener("click", function (event) {
+  event.preventDefault();
   if (firstNumber.value === "" || secondNumber.value === "") {
     alert("Les champs ne peuvent pas être vides");
     return;
@@ -23,7 +23,7 @@ submitBtn.addEventListener("click", function () {
   }
 
   const divideResult = intFirstNumber / intSecondNumber;
-  alert(
-    `Le résultat de la division des entiers de ce nombre est de : ${divideResult}`
-  );
+  const showResult = document.createElement("p");
+  showResult.textContent = `Le résultat de la division des deux nombres est de ${divideResult}`;
+  document.body.appendChild(showResult);
 });
