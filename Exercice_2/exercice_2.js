@@ -1,5 +1,9 @@
-let lastName = "Doe\n";
-let firstName = "John\n";
-let city = "New-York\n";
+let lastName = "Doe";
+let firstName = "John";
+let city = "New-York";
 
-alert(`Nom : ${lastName}Prénom : ${firstName}ville : ${city}`);
+function simpleCap(str) {
+  return str[0].toUpperCase() + str.slice(1);
+}
+
+alert(`Nom : ${lastName}\nPrénom : ${firstName}\nville : ${city}\n`);
