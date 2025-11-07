@@ -5,7 +5,7 @@ const submitBtn = document.querySelector("#submit");
 
 function capitalizeFirstLetter(str) {
   return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
-}
+};
 
 submitBtn.addEventListener("click", function () {
   const lastNameNameFirstUpperLetter = capitalizeFirstLetter(lastName.value);
