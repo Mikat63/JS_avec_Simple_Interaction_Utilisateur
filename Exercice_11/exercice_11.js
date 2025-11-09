@@ -12,7 +12,7 @@ submitBtn.addEventListener("click", function (event) {
     const userInputNumberConvertion = parseInt(userInputNumber.value);
 
     if (isNaN(userInputNumberConvertion)) {
-        alert("saisie impossible, veullez saisir un nombre")
+        alert("saisie impossible, veullez saisir un nombre");
         return;
     };
 
