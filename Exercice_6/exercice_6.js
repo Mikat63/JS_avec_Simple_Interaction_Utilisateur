@@ -25,6 +25,5 @@ submitBtn.addEventListener("click", function (event) {
 
   const divideResult = intFirstNumber / intSecondNumber;
 
-  const showResult = document.createElement("p");
   pResult.textContent = `Le résultat de la division des deux nombres est ${divideResult}`;
 });

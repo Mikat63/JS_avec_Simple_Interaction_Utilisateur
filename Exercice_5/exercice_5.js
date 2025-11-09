@@ -11,7 +11,7 @@ submitBtn.addEventListener("click", function () {
   const intFirstNumber = parseInt(firstNumber.value);
   const intsecondNumber = parseInt(secondNumber.value);
 
-  if (isNaN(intFirstNumber) || isNaN(intsecondNumber)) {
+  if (isNaN(intFirstNumber)) {
     alert("Veuillez entrer des nombres valides");
     return;
   }
